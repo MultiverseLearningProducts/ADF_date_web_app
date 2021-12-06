@@ -9,7 +9,7 @@ st.set_page_config(page_title='Date Calculator', layout='wide')
 st.title("Date Calculator")
 
 #split into two columns
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 
 # create difference calculator
 start_date = col1.date_input('Day 1')
